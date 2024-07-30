@@ -1,0 +1,113 @@
+/* Import Google Font for Chinese style */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap');
+
+body {
+    font-family: 'Noto Serif SC', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.navbar {
+    background-color: #b22222 !important; /* Chinese Red */
+    padding: 1rem 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white; /* White font */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ff8c00;
+}
+
+.navbar-brand {
+    color: white !important; /* White font */
+}
+
+.btn-red {
+    background-color: #b22222; /* Chinese Red */
+    color: white;
+}
+
+.btn-red:hover {
+    background-color: #8b0000; /* Darker Red */
+}
+
+.btn-yellow {
+    background-color: #ffc107; /* Chinese Yellow */
+    color: white;
+}
+
+.btn-yellow:hover {
+    background-color: #ffcc33; /* Darker Yellow */
+}
+
+#home {
+    height: 25vh; /* Set the height to 25% of the viewport height */
+    width: 100%;
+    background-color: white;
+    position: relative;
+    color: #b22222; /* Chinese Red */
+}
+
+#home .content-wrapper {
+    width: 100%; /* Make the content take up full width */
+    text-align: center;
+}
+
+#home h1, #home p, #home button, .navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.search-input {
+    width: 350px; /* Increase width to fit placeholder text */
+}
+
+.tile {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tile img {
+    width: 100%;
+    height: 200px; /* Set a consistent height */
+    object-fit: cover; /* Ensure images cover the space */
+    border-radius: 5px;
+}
+
+.tile h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.tile p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.tile .btn-red {
+    margin-top: auto; /* Push the button to the bottom */
+}
+
+footer {
+    background-color: #b22222; /* Chinese Red */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
