@@ -1,0 +1,122 @@
+{
+    "temples": [
+        {
+            "id": 1,
+            "name": "Jade Buddha Temple, Shanghai",
+            "imageUrl": "images/jade_buddha_temple.jpg",
+            "description": "A renowned Buddhist temple with a rich history and beautiful jade Buddha statues."
+        },
+        {
+            "id": 2,
+            "name": "Temple of Heaven, Beijing",
+            "imageUrl": "images/temple_of_heaven.jpg",
+            "description": "An iconic temple complex in Beijing, known for its stunning architecture and historical significance."
+        }
+    ],
+    "beaches": [
+        {
+            "id": 1,
+            "name": "Sanya Beach, Hainan",
+            "imageUrl": "images/sanya_beach.jpg",
+            "description": "A tropical paradise known for its white sandy beaches, clear waters, and luxury resorts."
+        },
+        {
+            "id": 2,
+            "name": "Qingdao Beach, Shandong",
+            "imageUrl": "images/Qingdao_Beach.jpg",
+            "description": "A popular beach destination known for its beautiful coastline, seafood, and the famous Qingdao Beer."
+        }
+    ],
+    "attractions": [
+        {
+            "id": 1,
+            "name": "The Great Wall",
+            "imageUrl": "images/great_wall.jpg",
+            "description": "One of the most iconic landmarks in China, the Great Wall is a must-see attraction."
+        },
+        {
+            "id": 2,
+            "name": "Forbidden City",
+            "imageUrl": "images/forbidden_city.jpg",
+            "description": "A historic palace complex in Beijing, the Forbidden City was the Chinese imperial palace for almost 500 years."
+        },
+        {
+            "id": 3,
+            "name": "Terracotta Army",
+            "imageUrl": "images/terracotta_army.jpg",
+            "description": "An army of life-sized terracotta sculptures representing the armies of Qin Shi Huang, the first Emperor of China."
+        },
+        {
+            "id": 4,
+            "name": "Giant Pandas",
+            "imageUrl": "images/giant_pandas.jpg",
+            "description": "Visit the Chengdu Research Base of Giant Panda Breeding to see these adorable creatures in their natural habitat."
+        },
+        {
+            "id": 5,
+            "name": "Yellow Mountains",
+            "imageUrl": "images/yellow_mountains.jpg",
+            "description": "Known for its stunning scenery, peculiarly shaped granite peaks, and views of the clouds from above."
+        },
+        {
+            "id": 6,
+            "name": "Li River",
+            "imageUrl": "images/li_river.jpg",
+            "description": "Famous for its karst mountain scenery and picturesque views, the Li River is a highlight of any trip to China."
+        },
+        {
+            "id": 7,
+            "name": "Potala Palace",
+            "imageUrl": "images/potala_palace.jpg",
+            "description": "A symbol of Tibetan Buddhism and the historic winter palace of the Dalai Lama."
+        },
+        {
+            "id": 8,
+            "name": "Zhangjiajie National Forest Park",
+            "imageUrl": "images/zhangjiajie.jpg",
+            "description": "Renowned for its towering sandstone pillars, which inspired the floating mountains in the movie Avatar."
+        },
+        {
+            "id": 9,
+            "name": "Mogao Caves",
+            "imageUrl": "images/mogao_caves.jpg",
+            "description": "A complex of Buddhist cave temples located on the Silk Road, famous for their statues and wall paintings."
+        },
+        {
+            "id": 10,
+            "name": "The Bund",
+            "imageUrl": "images/the_bund.jpg",
+            "description": "A famous waterfront area in central Shanghai, known for its colonial-era buildings."
+        },
+        {
+            "id": 11,
+            "name": "West Lake",
+            "imageUrl": "images/west_lake.jpg",
+            "description": "A beautiful freshwater lake located in Hangzhou, celebrated for its scenic beauty."
+        },
+        {
+            "id": 12,
+            "name": "Daocheng Yading Nature Reserve",
+            "imageUrl": "images/daocheng_yading.jpg",
+            "description": "Known as the last pure land on our blue planet, it boasts stunning landscapes and snow-capped mountains."
+        },
+        {
+            "id": 13,
+            "name": "Victoria Harbor",
+            "imageUrl": "images/victoria_harbor.jpg",
+            "description": "A natural landform harbor situated between Hong Kong Island and Kowloon in Hong Kong."
+        },
+        {
+            "id": 14,
+            "name": "Lijiang Old Town",
+            "imageUrl": "images/lijiang_old_town.jpg",
+            "description": "A well-preserved ancient town known for its traditional Naxi culture and ancient architecture."
+        },
+        {
+            "id": 15,
+            "name": "Erhai Lake",
+            "imageUrl": "images/erhai_lake.jpg",
+            "description": "A beautiful lake located in the Dali area, known for its crystal-clear waters and surrounding mountains."
+        }
+    ]
+}
