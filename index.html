@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelBloom - Discover China</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Updated CSS file reference -->
+  <link rel="stylesheet" href="assets/css/theme.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-red">
+    <div class="container">
+      <!-- Home link now points to index.html -->
+      <a class="navbar-brand" href="index.html">TravelBloom</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <!-- Updated navigation links -->
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Click Search to see all destinations" 
+                 aria-label="Search" id="searchInput" style="width: 350px;">
+          <button class="btn btn-yellow my-2 my-sm-0" type="button" id="searchButton">Search</button>
+          <button class="btn btn-secondary my-2 my-sm-0 ml-2" type="button" id="clearButton">Clear</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home page -->
+  <div id="home" class="d-flex flex-column justify-content-center align-items-center text-center">
+    <div class="content-wrapper">
+      <h1 class="display-4 text-red">美国中国友人</h1>
+      <p class="lead text-red">Explore the beauty and culture of China with us.</p>
+      <button class="btn btn-red btn-lg mb-4">Book Now</button>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Explore Top Destinations</h2>
+    <div class="row" id="tiles">
+      <!-- Tiles will be inserted here by JavaScript -->
+    </div>
+  </div>
+
+  <footer>
+    <p>Follow us on social media</p>
+    <a href="https://www.facebook.com/evan.parra.33" target="_blank">Facebook</a>
+    <a href="https://x.com/ParraEvan" target="_blank">Twitter</a>
+    <a href="https://www.linkedin.com/in/evanparra/" target="_blank">LinkedIn</a>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Updated JS file reference -->
+  <script src="assets/js/theme.js"></script>
+</body>
+</html>

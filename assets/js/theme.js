@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchInput = document.getElementById("searchInput");
     const tilesContainer = document.getElementById("tiles");
 
-    // Fetch data from JSON
+    // Fetch data from JSON (updated path and file name)
     const fetchRecommendations = async () => {
         try {
-            const response = await fetch('travel_recommendation_api.json');
+            const response = await fetch('data/recommendations.json');
             const data = await response.json();
             console.log("Fetched data:", data); // Log fetched data
             return data;
@@ -37,7 +37,10 @@ document.addEventListener("DOMContentLoaded", () => {
         let results = [];
         for (const category in data) {
             data[category].forEach(item => {
-                if ((item.name.toLowerCase().includes(query) || item.description.toLowerCase().includes(query)) && query !== "china") {
+                if (
+                    (item.name.toLowerCase().includes(query) || item.description.toLowerCase().includes(query)) &&
+                    query !== "china"
+                ) {
                     results.push(item);
                 }
             });
